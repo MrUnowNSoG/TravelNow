@@ -1,0 +1,1030 @@
+﻿<!DOCTYPE HTML>
+
+<html lang = "ua">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "author" content = "author">
+        <meta name = "description" content = "description">
+        <meta name = "viewport" content = "width = device - width, initial-scale = 1.0">
+
+        <title>TravelNow</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style type="text/css">
+/*START Sett I ng full progect*/
+body {
+    margin: 0px;
+}
+
+.colum {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*END SettiNg full progect*/
+
+
+
+/*START FirSt section*/
+.backround_menu {
+    width: 100%;
+    height: 581px;
+    background:url(https://static.tumblr.com/111b1952fa06863270b4eac7da0d7c8f/ylrpss7/xvQo1onqh/tumblr_static_tumblr_static_exnl9jzsv1w8w00w4cg4okc0o_focused_v3.jpg) center no-repeat;
+
+}
+/*START FirsT menu*/
+.fixedMenu {
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    z-index: 5;
+
+    width: 50%;
+}
+.main_menu {
+    width: 100%;
+    height: 70px;
+
+    background-color: #353535;
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_menu_button {
+    color:#EE6F47;
+    font-family: Alice, serif;
+    font-size: 36px;
+
+    margin: 0px 30px;
+
+    text-decoration: none;
+
+    transition: all 1s;
+}
+
+/*START AniMation button*/
+.main_menu_button::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: #A63916;
+}
+.main_menu_button:hover {
+    transition: all 3s;
+    color:#A63916;
+}
+
+.main_menu_button:hover::after {
+    transition: all 3s;
+    width: 100%;
+}
+/*END Animation buttonR*/
+
+.main_menu_line {
+    background-color: #EE6F47;
+    width: 220px;
+    height: 6px;
+
+    border-radius: 5px;
+
+    margin-top: 8px;
+}
+/*END First menU*/
+
+/*START MaiN text*/
+.menu_text {
+    width: 700px;
+    height: 200px;
+
+    margin: 100px auto;
+
+    font-family: Alice, serif;
+    font-size: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_text_two {
+    color: #EE6F47;
+}
+/*END Main text*/
+
+/*START Menu twO(1)*/
+.submain_menu a{
+    text-decoration: none;
+    color: #EE6F47;
+}
+.submain_menu {
+    width: 100%;
+    height: 110px;
+
+    background-color: #353535;
+
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: Alice, serif;
+    font-size: 36px;
+
+    color: #EE6F47;
+}
+
+.submain_menu a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: #A63916;
+}
+.submain_menu a:hover {
+    transition: all 1s;
+    color:#A63916;
+}
+.submain_menu a:hover::after {
+    transition:  all 1s;
+    width: 100%;
+}
+
+.Watch {
+    display: block;
+}
+
+/*Script class*/
+.Hid {
+    display: none;
+}
+/*END Menu tWo(1)*/
+
+/*START Menu two(2)*/
+.submain_menu_two {
+    width: 100%;
+    height: 110px;
+
+    background-color: #353535;
+
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+
+    display: block;
+
+    font-family: Alice, serif;
+    font-size: 36px;
+
+    color: #EE6F47;
+}
+
+.submain_menu_two_wallpaper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 5px;
+}
+
+.submain_menu_two_block {
+    width: 700px;
+    margin: 18px auto 0;
+}
+
+.submain_menu_two a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: #A63916;
+}
+.submain_menu_two a:hover {
+    transition: all 1s;
+    color:#A63916;
+}
+.submain_menu_two a:hover::after {
+    transition:  all 1s;
+    width: 100%;
+}
+/*END Menu two(2)*/
+
+/*END First section*/
+
+
+
+/*START Two section*/
+.backround_info {
+    width: 100%;
+    height: 2500px;
+
+    background: fixed url(https://oir.mobi/uploads/posts/2021-03/1616530380_46-p-chisto-chernii-fon-51.jpg) center repeat;
+}
+
+/*START First block*/
+.firstBlock {
+    width: 100%;
+    height: 2300px;
+    
+    background-color: #353535;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+    padding-top: 30px;
+}
+
+.firstBlock_block {
+    width: 1100px;
+    height: 425px;
+
+    margin: 0px auto 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.firstBlock_text {
+    width: 500px;
+    height: 60px;
+
+    margin: 20px auto 30px;
+
+    color: #EE6F47;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+.firstBlock_subtext {
+    width: 541px;
+    height: 322px;
+
+    margin: 0px auto;
+
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+}
+.firstBlock_img {
+    width: 530px;
+    height: 425px;
+
+    border: 1px solid #EE6F47;
+    
+    box-shadow: 0px 0px 5px 3px #ee6f47;
+}
+
+.firstBlock_img img{
+    width: 530px;
+    height: 425px;
+}
+
+.firstBlock_blockEnd {
+    width: 860px;
+    height: 590px;
+
+    margin: 30px auto 0;
+}
+
+.firstBlock_blockEnd_text {
+    width: 100%;
+    height: 60px;
+
+    text-align: center;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 48px;
+
+    color:#ee6f47;
+}
+
+.firstBlock_blockEnd_subtext {
+    width: 860px;
+    height: 60px;
+
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    color:white;
+
+    margin: 20px auto;
+}
+
+.firstBlock_blockEnd_img {
+    width: 450px;
+    height: 450px;
+
+    margin: 40px auto 0;
+}
+
+@keyframes rotateImg {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    25% {
+        transform: rotate(0.2turn);
+    }
+
+    50% {
+        transform: rotate(0turn);
+    }
+
+    75% {
+        transform: rotate(-0.2turn);
+    }
+
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
+.firstBlock_blockEnd_img img{
+    width: 450px;
+    height: 450px; 
+    transform: rotate(0turn);
+
+    animation: rotateImg 10s infinite;
+}
+/*END First block*/
+
+/*START Two block*/
+.twoBlock {
+    width: 100%;
+    height: 2300px;
+    
+    background-color: #353535;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+    padding-top: 30px;
+}
+/*END Two block*/
+
+/*Start Footer*/
+.footer {
+    width: 100%;
+    height: 70px;
+
+    margin-top: 99px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+
+    background-color: #353535;
+
+    color: #ee6f47;
+    font-size: 18px;
+    font-family: Alice, serif;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_block {
+    width: 270px;
+    height: 40px;
+
+    margin: 20px 20px 0px;    
+}
+/*END Footer*/
+
+/*START Slider*/
+.twoBlock_block {
+    width: 1140px;
+    height: 630px;
+
+    padding-top: 25px;
+    
+    margin: 0 auto;
+}
+
+.twoBlock_block_name {
+    width: 920px;
+    height: 70px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ee6f47;
+}
+
+.twoBlock_blockEnd {
+    width: 860px;
+    height: 300px;
+    margin: 30px auto 0;
+}
+.twoBlock_block_slider {
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.arrow_Left {
+    width: 50px;
+    height: 100px;
+
+    
+    margin: 0 15px;
+    padding-bottom: 95px;
+
+    font-size: 100px;
+    color:#ee6f47;
+    cursor:pointer;
+}
+
+.arrow_Right {
+    width: 50px;
+    height: 100px;
+
+    margin: 0 15px;
+    padding-bottom: 95px;
+
+    font-size: 100px;
+    color:#ee6f47;
+    cursor:pointer;
+}
+
+.Slider_block {
+    width: 1000px;
+    height: 535px;
+}
+
+.Slider_image_img img {
+    width: 1000px;
+    height: 450px;
+}
+
+.Slider_image_text {
+    width: 920px;
+    height: 70px;
+
+    margin-top: 10px;
+
+    text-align: center;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ee6f47;
+}
+
+.HidPhoto {
+    display: none;
+}
+
+/*END Slider*/
+/*END Two section*/
+</style>
+    </head>
+
+    <body>
+        <section class = "backround_menu">
+            <div class = "colum">
+                <div class = "fixedMenu">
+                    <div class = "main_menu">
+                        <a id = "mainBut" href = "#" class = "main_menu_button">
+                            Головна
+                        </a>
+
+                        <div class = "main_menu_line"></div>
+
+                        <a id = "photoBut" href = "#" class = "main_menu_button">
+                            Фотокартка
+                        </a>
+                    </div>
+                </div>
+                <div class = "main_menu"></div>
+
+                <div class = "menu_text">
+                    <div class = "menu_text_first">Travel</div>
+                    <div class = "menu_text_two">Now</div>
+                </div>
+
+                <div class = "submain_menu Watch">
+
+                    <div class = "submain_menu">
+                        <a href = "#" class = "submain_menu_button">
+                            | Про нас! |
+                        </a>
+
+                        <a href = "#firstId" class = "submain_menu_button">
+                            | Наші послуги - це |
+                        </a>
+
+                        <a href = "#TwoId" class = "submain_menu_button">
+                            | Маршрути в Європу |
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class = "submain_menu Hid">
+
+                    <div class = "submain_menu_two">
+                        <div class = "submain_menu_two_wallpaper">
+                            <a href = "#" class = "submain_munu_two_button">
+                                | Пляжний відпочинок |
+                            </a>
+
+                            <a href = "#firtsSlider_arrow_Left" class = "submain_munu_two_button">
+                                | Подорожі до Азії |
+                            </a>
+                        </div>
+                        
+                        <div class = "submain_menu_two_block">
+                            <a href = "#twoSlider_arrow_Left" class = "submain_munu_two_button">
+                                | Подорожі до США Та Великобританія |
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class = "backround_info">
+            <div class = "colum">
+                <div class = "firstBlock Watch">
+
+                    <div class = "firstBlock_block">
+
+                        <div class = "firstBlock_column">
+                            <div class = "firstBlock_text">
+                                Про нас!
+                            </div>
+                            <div class = "firstBlock_subtext">
+                                «Travel now»-це компанія, яка організовує активний та ефектний відпочинок усім, хто прагне отримати від життя тільки найцікавіше. Колектив обрав саме ті маршрути, які залишають незабутні враження та дарують максимум емоцій.
+                            </div>
+                        </div>
+
+                        <div id = "firstId" class = "firstBlock_img">
+                            <img alt = "Img loaded..." src = "https://cdn.dribbble.com/users/362869/screenshots/7908503/travelnow_2x_4x.png">
+                        </div>
+                    </div>
+
+                    <div class = "firstBlock_block">
+
+                        <div class = "firstBlock_column">
+                            <div  class = "firstBlock_text">
+                                Наші послуги - це
+                            </div>
+                            <div class = "firstBlock_subtext">
+                                Екскурсійні тури в Європу.
+                                <br>
+                                Пляжний відпочинок —Єгипет, Греція, Кіпр, Іспанія, Болгарія, Чорногорія.
+                                <br>
+                                Подорожі у Східну Азію( Китай, Тайланд, Південна Корея, Японія)
+                                <br>
+                                Південну Азію(Мальдіви)
+                                <br>
+                                Подорожі до США Та Великобританія
+                                
+                            </div>
+                        </div>
+
+                        <div id = "TwoId" class = "firstBlock_img">
+                            <img alt = "Img loaded..." src = "https://www.travelnews.co.za/sites/default/files/images/article/202007/travelagents.jpg">
+                        </div>
+                    </div>
+
+                    <div class = "firstBlock_block">
+
+                        <div class = "firstBlock_column">
+                            <div class = "firstBlock_text">
+                                Маршрути в Європу:
+                            </div>
+                            <div class = "firstBlock_subtext">
+                                1.Маршрут:<br>
+                                Київ - Венеція - Мілан - Верона – Київ.
+                                <br>
+                                2.Марштрут:<br>
+                                Київ – Париж – Мілан – Київ.
+                                <br>
+                                3.Маршрут:<br>
+                                Київ – Берлін – Амстердам – Гамбург - Київ.
+                            </div>
+                        </div>
+
+                        <div class = "firstBlock_img">
+                            <img alt = "Img loaded..." src = "https://st2.depositphotos.com/1748392/7882/v/950/depositphotos_78826174-stock-illustration-map-route-direction-path-navigation.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class = "firstBlock_blockEnd">
+                        <div class = "firstBlock_blockEnd_text">
+                            Ми працюємо, щоб Ви відпочивали!
+                        </div>
+
+                        <div class = "firstBlock_blockEnd_subtext">
+                            Діє гнучка система знижок! Якісно і швидко підбираємо тури, бронюємо за хорошу ціну! Працюємо тільки з якісними туроператорами. 
+                        </div>
+
+                        <div class = "firstBlock_blockEnd_img">
+                            <img alt = "Logo" src = "https://travelnowornever.com/wp-content/uploads/2018/07/travel-now-final-06.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "twoBlock Hid">
+
+                    <div class = "twoBlock_block">
+
+                        <div class = "twoBlock_block_name" >
+                            Пляжний відпочинок
+                        </div>
+
+                        <div class = "twoBlock_block_slider">
+                            <div id = "firtsSlider_arrow_Left" class = "arrow_Left">
+                                  &#8249;
+                            </div>
+
+                            <div id = "firtsSlider" class = "Slider_block">
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://files.tpg.ua/pages2/87803/Egypt_main.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Єгипет
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://ua.news/wp-content/uploads/2021/04/hero-038de4eade0e8727a19b021f26365647de42715db5e432fd4cbcad0a8bea76f4.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Греція
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://misto.travel/Image/source/news/2017/02/passport1111-2.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Кіпр
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://www.travelexotic.in.ua/wp-content/uploads/2017/03/top-5-.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Іспанія
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://files.tpg.ua/pages2/87783/Bulgaria_main.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Болгарія
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = https://img.zikua.tv/original/2020/06/20/251561.jpg?timestamp=1592631807">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Чорногорія
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id = "firtsSlider_arrow_Right" class = "arrow_Right">
+                                &#8250;
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class = "twoBlock_block">
+
+                        <div class = "twoBlock_block_name" >
+                            Подорожі до Азії
+                        </div>
+
+                        <div class = "twoBlock_block_slider">
+                            <div id = "twoSlider_arrow_Left" class = "arrow_Left">
+                                  &#8249;
+                            </div>
+
+                            <div id = "twoSlider" class = "Slider_block">
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://vsitury.com.ua/uploads/207/71096/102444.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Китай
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://cdn2.tu-tu.ru/image/pagetree_node_data/6/fb7303b59d70a02af0cb417cc6c3696d/">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Тайланд
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://bitnovosti.com/wp-content/uploads/2020/06/shutterstock_258334436.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Південна Корея
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://files.ar25.org/sites/default/files/node/2018/08/39839/yaponiya.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Японія
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://static.uvidpustku.com/wp-content/uploads/2019/03/holiday-2733342_1920.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Мальдіви
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id = "twoSlider_arrow_Right" class = "arrow_Right">
+                                &#8250;
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class = "twoBlock_block">
+
+                        <div class = "twoBlock_block_name" >
+                            Подорожі до США Та Великобританія
+                        </div>
+
+                        <div class = "twoBlock_block_slider">
+                            <div id = "threeSlider_arrow_Left" class = "arrow_Left">
+                                  &#8249;
+                            </div>
+
+                            <div id = "threeSlider" class = "Slider_block">
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://www.balticcouncil.lv/upload/0(2).jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        США
+                                    </div>
+                                </div>
+
+                                <div class = "Slider_image">
+                                    <div class = "Slider_image_img">
+                                        <img alt = "Photo" src = "https://psm7.com/wp-content/uploads/2017/06/Britain_business.jpg">
+                                    </div>
+
+                                    <div class = "Slider_image_text">
+                                        Великобританія
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id = "threeSlider_arrow_Right" class = "arrow_Right">
+                                &#8250;
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class = "twoBlock_blockEnd">
+                        <div class = "firstBlock_blockEnd_text">
+                            Ми працюємо, щоб Ви відпочивали!
+                        </div>
+
+                        <div class = "firstBlock_blockEnd_subtext">
+                            «Travel now»-це компанія, яка якісно і швидко підбирає тури саме для вас і бронюємо їх за хорошу ціну!
+                            <br>Активний та ефектний відпочинок усім, хто прагне отримати від життя тільки найцікавіше. 
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "footer">
+                    <div class = "footer_block">
+                        м. Київ, вул.Зелена 113
+                    </div>
+
+                    <div class = "footer_block">
+                        +38 (095) 777-24-08 <br>
+                        +38 (093) 010-84-97
+                    </div>
+
+                    <div class = "footer_block">
+                        www.TravelNow.com.ua
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script >
+var mainBut = document.getElementById('mainBut');
+var photoBut = document.getElementById('photoBut');
+
+var watch = document.querySelectorAll(".Watch");
+var hid = document.querySelectorAll(".Hid");
+
+
+mainBut.addEventListener("click", function MainHT() {
+
+    for(var i = 0; i < hid.length; i++) {
+        hid[i].classList.add("Hid");
+        hid[i].classList.remove("Watch");
+    }
+
+    for(var i = 0; i < watch.length; i++) {
+        watch[i].classList.add("Watch");
+        watch[i].classList.remove("Hid");
+    }
+
+    console.log("bka2");
+});
+
+photoBut.addEventListener("click", function Photo() {
+    for(var i = 0; i < watch.length; i++) {
+        watch[i].classList.add("Hid");
+        watch[i].classList.remove("Watch");
+    }
+
+    for(var i = 0; i < hid.length; i++) {
+        hid[i].classList.add("Watch");
+        hid[i].classList.remove("Hid");
+    }
+
+    console.log("bka");
+
+    startPhoto();
+});
+
+var arrowLeftFirst = document.getElementById('firtsSlider_arrow_Left');
+var arrowRightFirst = document.getElementById('firtsSlider_arrow_Right');
+
+var slideImageFirst = document.getElementById('firtsSlider').querySelectorAll(".Slider_image");
+var numberPhotoSF = 0;
+
+arrowLeftFirst.addEventListener("click", function nameLF() {
+    numberPhotoSF--;
+    if(numberPhotoSF < 0) {numberPhotoSF = 0;}
+    else {
+        for(var i = 0; i < slideImageFirst.length; i++) {
+            slideImageFirst[i].classList.add("HidPhoto");
+        }
+        slideImageFirst[numberPhotoSF].classList.remove("HidPhoto");
+    }
+});
+
+arrowRightFirst.addEventListener("click", function nameRF() {
+    numberPhotoSF++;
+    if(numberPhotoSF >= slideImageFirst.length) {numberPhotoSF = slideImageFirst.length - 1;}
+    else {
+        for(var i = 0; i < slideImageFirst.length; i++) {
+            slideImageFirst[i].classList.add("HidPhoto");
+        }
+        slideImageFirst[numberPhotoSF].classList.remove("HidPhoto");
+    }
+});
+
+
+var arrowLefttwo = document.getElementById('twoSlider_arrow_Left');
+var arrowRighttwo = document.getElementById('twoSlider_arrow_Right');
+
+var slideImagetwo = document.getElementById('twoSlider').querySelectorAll(".Slider_image");
+var numberPhotoStwo = 0;
+
+arrowLefttwo.addEventListener("click", function nameLtwo() {
+    numberPhotoStwo--;
+    if(numberPhotoStwo < 0) {numberPhotoStwo = 0;}
+    else {
+        for(var i = 0; i < slideImagetwo.length; i++) {
+            slideImagetwo[i].classList.add("HidPhoto");
+        }
+        slideImagetwo[numberPhotoStwo].classList.remove("HidPhoto");
+    }
+});
+
+arrowRighttwo.addEventListener("click", function nameRtwo() {
+    numberPhotoStwo++;
+    if(numberPhotoStwo >= slideImagetwo.length) {numberPhotoStwo = slideImagetwo.length - 1;}
+    else {
+        for(var i = 0; i < slideImagetwo.length; i++) {
+            slideImagetwo[i].classList.add("HidPhoto");
+        }
+        slideImagetwo[numberPhotoStwo].classList.remove("HidPhoto");
+    }
+});
+
+var arrowLeftthree = document.getElementById('threeSlider_arrow_Left');
+var arrowRightthree = document.getElementById('threeSlider_arrow_Right');
+
+var slideImagethree = document.getElementById('threeSlider').querySelectorAll(".Slider_image");
+var numberPhotoSthree = 0;
+
+arrowLeftthree.addEventListener("click", function nameLthree() {
+    numberPhotoSthree--;
+    if(numberPhotoSthree < 0) {numberPhotoSthree = 0;}
+    else {
+        for(var i = 0; i < slideImagethree.length; i++) {
+            slideImagethree[i].classList.add("HidPhoto");
+        }
+        slideImagethree[numberPhotoSthree].classList.remove("HidPhoto");
+    }
+});
+
+arrowRightthree.addEventListener("click", function nameRthree() {
+    numberPhotoSthree++;
+    if(numberPhotoSthree >= slideImagethree.length) {numberPhotoSthree = slideImagethree.length - 1;}
+    else {
+        for(var i = 0; i < slideImagethree.length; i++) {
+            slideImagethree[i].classList.add("HidPhoto");
+        }
+        slideImagethree[numberPhotoSthree].classList.remove("HidPhoto");
+    }
+});
+
+function startPhoto() {
+    console.log(arrowLeftFirst);
+
+    for(var i = 0; i < slideImageFirst.length; i++) {
+        slideImageFirst[i].classList.add("HidPhoto");
+    }
+
+    slideImageFirst[0].classList.remove("HidPhoto");
+    numberPhotoSF = 0;
+
+    for(var i = 0; i < slideImagetwo.length; i++) {
+        slideImagetwo[i].classList.add("HidPhoto");
+    }
+
+    slideImagetwo[0].classList.remove("HidPhoto");
+    numberPhotoStwo = 0;
+
+    for(var i = 0; i < slideImagethree.length; i++) {
+        slideImagethree[i].classList.add("HidPhoto");
+    }
+
+    slideImagethree[0].classList.remove("HidPhoto");
+    numberPhotoSthree = 0;
+}
+</script>
+    </body>
+</html>
